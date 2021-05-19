@@ -1,0 +1,40 @@
+body {
+ background-color: #013945;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+svg {
+ width: 100%;
+ height: 100%;
+ visibility: hidden;
+ 
+}
+#pulseLine {
+	stroke: #C7F8E4;
+	stroke-width: 4px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+
+
+.gsap-3-logo {
+width: 20vw;
+max-width: 150px;
+position: fixed;
+bottom: 15px;
+right: 15px;
+}
